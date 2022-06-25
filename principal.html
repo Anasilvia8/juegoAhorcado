@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="ahorcadoDibujo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="Vector.png" alt="logo de alura" class="logo-alura">
+    </header>
+
+    <div class="hombre-ahorcado">
+        <img id="hombre" alt="hombre-ahorcado">
+    </div>
+    
+    <div class="adivinado">
+    </div>
+
+    <div class="errado">
+    </div>
+
+    <div class="botones-principal">
+        <button class="boton-newgame" onclick="nuevoJuego()">Nuevo juego</button>
+        <button class="boton-desistir" onclick="location.reload()">Desistir</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
